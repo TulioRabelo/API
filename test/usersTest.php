@@ -9,7 +9,7 @@ function testGetAllUsers() {
 
 }
 
-function testInsertValidUser() {
+function testInsertValidUsers() {
 
 	$uri = 'http://localhost/users/signUp';
 	$response = \Httpful\Request::post($uri)
@@ -105,7 +105,7 @@ function testInserUserWithInvalidCPF(){
 	}
 }
 	
-function testInserUserWithInvalidCPF(){
+function testInserUserWithInvalidCPF2(){
 	$uri = 'http://localhost/users/signUp';
 	$response = \Httpful\Request::post($uri)
 	->sendsJson()
