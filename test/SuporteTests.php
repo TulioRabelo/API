@@ -105,7 +105,7 @@ function testInserUserWithInvalidRamal(){
 	}
 }
 	
-function testInserUserWithInvalidRamal(){
+function testInserUserWithInvalidRamal2(){
 	$uri = 'http://localhost/users/signUp';
 	$response = \Httpful\Request::post($uri)
 	->sendsJson()
